@@ -1,4 +1,4 @@
-package com.driver;
+package com.driver.controllers;
 
 import com.driver.controllers.HotelManagementRepository;
 import com.driver.model.Booking;
