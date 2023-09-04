@@ -91,11 +91,11 @@ public class HotelManagementRepository {
         return amountToBePaid;
     }
 
-    public int getBooking(Integer adharCard){
+    public int getBookings(Integer adharCard){
         return countOfBookings.get(adharCard);
     }
 
-    public Hotel updateFacility(List<Facility> newFacilities, String hotelName){
+    public Hotel updateFacilities(List<Facility> newFacilities, String hotelName){
         List<Facility> oldFacilities = hotelDb.get(hotelName).getFacilities();
 
         for(Facility facility: newFacilities){
